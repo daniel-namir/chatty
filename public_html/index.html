@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="style.css">
+        <script src="/code.js"></script>
+        <title>Chatty</title>
+    </head>
+    <body>
+        <div id='top'>
+
+        </div>
+        <div id='bottom'>
+            <br></br>
+            <label for="alias">Alias</label>
+            <input type="text" id="alias" name="alias">
+            <br></br>
+            <label for="message">Message</label>
+            <input type="text" id="message" name="message">
+            <br></br>
+            <button id="submitButton" onclick="sendMessage(); getMessage(); clearField();">Send Message</button>
+            <button id="clearButton" onclick="clearChat();">Clear Chat</button>
+            <br></br>
+        </div>
+    </body>
+</html>
